@@ -8,7 +8,7 @@ import {
 import './index.css';
 import App from './App';
 import BlogIndex from './components/Blog/Index';
-import BlogDetail from './components/Blog/BlogDetail';
+import BlogDetail from './components/Blog/BlogDetail/BlogDetail';
 import reportWebVitals from './reportWebVitals';
 import Index from './components/Member/Index';
 

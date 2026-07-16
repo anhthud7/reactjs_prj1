@@ -2,9 +2,9 @@ import React from 'react';
 import Header from './components/Layout/Header';
 import MenuLeft from './components/Layout/MenuLeft';
 import Footer from './components/Layout/Footer';
-import Detail from './components/Blog/BlogDetail'; 
+// import Detail from './components/Blog/BlogDetail'; 
 import Login from './components/Member/Login';
-
+import BlogDetail from './components/Blog/BlogDetail/BlogDetail';
 function App(props) {
   return (
     <>
