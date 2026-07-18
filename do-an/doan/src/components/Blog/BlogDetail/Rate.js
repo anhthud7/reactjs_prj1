@@ -58,7 +58,7 @@ function Rate() {
             });
     };
 
-    }
+
     return (
         <StarRatings
             rating = {rating}
