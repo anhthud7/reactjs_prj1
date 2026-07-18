@@ -20,7 +20,7 @@ function ListComment({ comment, onReplyComment }) {
                                     className="media-object"
                                     src={`http://localhost/laravel8/laravel8/public/upload/user/avatar/${parentCmt.image_user}`}
                                     alt=""
-                                   // style={{ width: '60px', height: '60px', borderRadius: '50%' }}
+                                // style={{ width: '60px', height: '60px', borderRadius: '50%' }}
                                 />
                             </div>
                             <div className="media-body">
@@ -32,8 +32,8 @@ function ListComment({ comment, onReplyComment }) {
                                     </li>
                                 </ul>
                                 <p>{parentCmt.comment}</p>
-                                <button 
-                                    className="btn btn-primary btn-sm" 
+                                <button
+                                    className="btn btn-primary btn-sm"
                                     onClick={() => onReplyComment(parentCmt.id)}
                                 >
                                     <i className="fa fa-reply"></i> Reply
@@ -48,7 +48,7 @@ function ListComment({ comment, onReplyComment }) {
                                         className="media-object"
                                         src={`http://localhost/laravel8/laravel8/public/upload/user/avatar/${childCmt.image_user}`}
                                         alt=""
-                                       // style={{ width: '60px', height: '60px', borderRadius: '50%' }}
+                                    // style={{ width: '60px', height: '60px', borderRadius: '50%' }}
                                     />
                                 </div>
                                 <div className="media-body">
@@ -60,9 +60,9 @@ function ListComment({ comment, onReplyComment }) {
                                         </li>
                                     </ul>
                                     <p>{childCmt.comment}</p>
-                                    <button 
-                                        className="btn btn-primary btn-sm" 
-                                        onClick={() => onReplyComment(parentCmt.id)} // Click reply ở con thì vẫn tính là reply cụm cha đó
+                                    <button
+                                        className="btn btn-primary btn-sm"
+                                        onClick={() => onReplyComment(parentCmt.id)}
                                     >
                                         <i className="fa fa-reply"></i> Reply
                                     </button>
